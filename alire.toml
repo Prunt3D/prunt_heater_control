@@ -1,0 +1,15 @@
+name = "prunt_heater_control"
+description = "Heater control algorithms for Prunt."
+version = "0.1.0-dev"
+
+authors = ["Liam Powell"]
+maintainers = ["Liam Powell <liam@liampll.com>"]
+maintainers-logins = ["liampwll"]
+
+[[depends-on]]
+prunt_physical_types = "*"
+[[pins]]
+prunt_physical_types = { path = "../prunt_physical_types" }
+
+[build-switches]
+release.optimization = []
